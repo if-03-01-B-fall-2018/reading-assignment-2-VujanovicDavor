@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cheet Sheet</title>
+  </head>
+
+  <body>
+    
+    <button1><a href="CheatSheet.html">Go Back</a></button1>
+
+    <br><br><h1>Assignement 2</h1>
+
+    <h1><u>HTML</u></h1>
+        <p>
+          An HTML element usually consists of a start tag
+          and an end tag, with the content inserted in between.
+        </p>
+
+      <h2><em>Identify void elements and how they are denoted</em></h2>
+        <p>
+          < br > is an empty element without a closing tag (the < br > tag defines a line break)
+        </p>
+
+      <h2><em>Identify attributes</em></h2>
+        <p>
+          Attributes provide additional information about HTML elements.
+        </p>
+
+      <h2><em>Write down the correct DOCTYPE declaration for html 5</em></h2>
+        <p>
+          The < !DOCTYPE > declaration represents the document type, and helps<br>
+          browsers to display web pages correctly.<br>
+          It must only appear once, at the top of the page (before any HTML tags).
+        </p>
+
+      <h2><em>Write down syntactically correct statements for the following elements:</em></h2>      
+      <ol>  
+        <li>Article (<code>&lt;article&gt;</code>)</li> 
+          <ul>Defines an article</ul>
+        <li>Body (<code>&lt;body&gt;</code>)</li>
+          <ul>Defines the document's body</ul>
+        <li>line break (<code>&lt;br/&gt;</code>)</li>
+          <ul>Defines a single line break</ul>
+        <li>Headings (<code>&lt;h1&gt;</code>, ...)</h1></li>
+          <ul>Defines HTML headings</ul>
+        <li>Section with meta-information (<code>&lt;head&gt;</code>)</li>
+          <ul>Defines information about the document</ul>
+        <li>Top level element (<code>&lt;html&gt;</code>)</li>
+          <ul>Defines the root of an HTML document</ul>
+        <li>Image named <code>Team.jpg</code> (<code>&lt;img src="Team.jpg"&gt;</code>)</li>
+          <ul>Defines an image</ul>
+        <li>Paragraph (<code>&lt;p&gt;</code>)</li>
+          <ul>Defines a paragraph</ul>
+        <li>Section (<code>&lt;section&gt;</code>)</li>
+          <ul>Defines a section in a document</ul>
+        <li>Label appearing in the title bar (<code>&lt;title&gt;</code>)</li>
+          <ul>Defines a title for the document</ul>
+        <li>Link to other pages (<code>&lt;a&gt;</code>)</li>
+          <ul>Defines a hyperlink</ul>
+        <li>Comment</li>
+          <ul>< !--...-- > defines a comment</ul>
+        <li>Head with title and meta elements</li>
+          <ul></ul>
+      </ol>
+
+    <h1><u>CSS</u></h1>
+        
+      <ol>
+        <li>Name the components of a css rule properly</li>
+          <ul>
+            <li> Selector </li>
+            <li> Declaration </li>
+            <li> Property </li>
+            <li> Value </li>
+          </ul>
+        <li>Use combinators properly: direct child, descendant, adjacent sibling, sibling</li>
+          <ul>
+              Descendant
+              div p {
+              <br>background-color: yellow;
+              <br>}</p>
+    
+              Child
+              div > p {
+              <br>background-color: yellow;
+              <br>}</p>
+    
+              Adjacent Sibling
+              div + p {
+              <br>background-color: yellow;
+              <br>} </p>
+    
+              Sibling
+              div ~ p {
+              <br>background-color: yellow;
+              <br>}
+          </ul>
+        <li>Specify colors by color names and in hexadecimal notation</li>
+          <ul>
+            <div class="tomato">
+              Tomato<br>
+            </div>
+              #ff0000
+            
+            <div class="dodgerblue">
+              DodgerBlue<br>
+            </div>
+            #0000ff
+
+            <div class="mediumSeaGreen">
+              MediumSeaGreen<br>
+            </div>
+            #3cb371
+
+            <div class="violet">
+              Violet<br>
+            </div>            
+            #ee82ee
+
+            <div class="orange">
+              Orange<br>
+            </div>            
+            #ffa500
+
+            <div class="purple">
+              Purple<br>
+            </div>            
+            #6a5acd
+
+            <div class="black">
+              Black<br>
+            </div>
+            #000000
+
+            <div class="grey">
+              Grey<br>
+            </div>
+            #787878
+
+            <div class="white">
+              White<br>
+            </div>
+            #ffffff
+          </ul>
+        <li>Declarations for color, background color</li>
+          <ul>
+            a valid color name - like "red"<br>
+            a HEX value - like "#ff0000"<br>
+            an RGB value - like "rgb(255,0,0)"<br>
+          </ul>
+        <li>Pseudo classes for the <code>&lt;a&gt;</code> element</li>
+          <ul>
+            /* unvisited link */<br>
+     			  a:link {<br>
+     			  color: #FF0000;<br>
+     			  }</p>
+     			  
+     			  /* visited link */<br>
+     			  a:visited {<br>
+     			  color: #00FF00;<br>
+     			  }</p>
+     			  
+     			  /* mouse over link */<br>
+     			  a:hover {<br>
+     			  color: #FF00FF;<br>
+     			  }</p>
+     			  
+     			  /* selected link */<br>
+     			  a:active {<br>
+     			  color: #0000FF;<br>
+     			  }
+          </ul>
+        <li>Declaration for background image</li>
+          <ul>
+              <br>background-image: url("paper.gif");
+              <br>}
+          </ul>
+        <li>Declaration for text alignment (left, right, center, justify)</li>
+          <ul>
+            p {<br>
+            text-align: center;<br>
+            }</P>
+              
+            p {<br>
+            text-align: left;<br>
+            }</p>
+              
+            p {<br>
+            text-align: right;<br>
+            }</p>
+              
+            p {<br>
+            text-align: justify;<br>
+            }
+
+          </ul>
+        <li>Declaration for text decoration (overline, underline, line-through)</li>
+          <ul>
+            p {<br>
+            text-decoration-line: underline;<br>
+            }</p>
+              
+            p {<br>
+            text-decoration-line: line-through;<br>
+            }</p>
+              
+            p {<br>
+            text-decoration-line: overline;<br>
+            }
+          </ul>
+        <li>Declaration for text transformation (uppercase, lowercase, capitalize)</li>
+          <ul>
+            p {<br>
+            text-transform:uppercase/lowercase/capitalize;<br>
+            }
+          </ul>
+        <li>Identify the difference between serif and sans-serif fonts</li>
+          <ul>
+              Serif stands for stroke or line and Sans means “without”.<br>
+              So Sans Serif font means font without strokes or lines.Simple.
+          </ul>
+        <li>Declarations for font families</li>
+          <ul>
+            p.a {<br>
+            font-family: "Times New Roman", Times, serif;<br>
+            }
+          </ul>
+        <li>Declarations for font style normal and italic</li>
+          <ul>
+            p.{<br>
+            font-style: normal/italic;<br>
+            }
+          </ul>
+        <li>Declarations for font sizes</li>
+          <ul>
+            h1/h2/p {<br>
+            font-size: 32px;<br>
+            }
+          </ul>
+        <li>Declarations for font weights</li>
+          <ul>
+            p.{<br>
+            font-weight: normal;<br>
+            }
+          </ul>
+      </ol>
+        
+  </body>
+</html>
